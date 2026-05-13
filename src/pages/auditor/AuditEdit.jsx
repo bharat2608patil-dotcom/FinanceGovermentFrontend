@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { EmptyState, Loader, CharacterAllow } from "../../core/registry";
 // Import your service helper instead of axios
-import * as auditApi from "../../../axios/auditApi";
+import * as auditApi from "../../api/auditApi";
 
 const AuditEdit = () => {
   const { id } = useParams();

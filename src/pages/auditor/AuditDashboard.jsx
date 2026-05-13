@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import * as auditApi from "../../../axios/auditApi";
+import * as auditApi from "../../api/auditApi";
 import { Loader, RefetchButton, AuditSummary } from '../../core/registry';
 
 const AuditDashboard = () => {

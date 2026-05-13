@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useParams } from 'react-router-dom';
-import * as auditApi from "../../../axios/auditApi";
+import * as auditApi from "../../api/auditApi";
 import { Loader, EmptyState, DisplayOneAudit } from '../../core/registry';
 
 const AuditDetails = () => {

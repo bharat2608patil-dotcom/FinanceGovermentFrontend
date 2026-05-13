@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import * as complianceApi from "../../../axios/complianceApi";
+import * as complianceApi from "../../api/complianceApi";
 
 const ComplianceCreate = ({ onCreated, onCancel }) => {
   const navigate = useNavigate();
