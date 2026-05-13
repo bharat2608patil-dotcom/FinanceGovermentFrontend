@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { Modal } from '../../../../components/common/Modal';
-import { RecordsTable, StatusBadge, Loader } from '../../../../core/registry';
-import * as complianceApi from "../../../../axios/complianceApi";
+import { Modal } from '../../components/global/Modal';
+import { RecordsTable, StatusBadge, Loader } from '../../core/registry';
+import * as complianceApi from "../../api/complianceApi";
 import { toast } from "react-toastify";
 
 const ComplianceTable = ({ records = [], loading = false, onRefresh }) => {

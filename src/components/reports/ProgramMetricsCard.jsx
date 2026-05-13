@@ -1,5 +1,5 @@
 import React from 'react';
-import GenericMetricsCard from '../../core/GenericMetricsCard';
+import GenericMetricsCard from '../reports/GenericMetricsCard';
 const ProgramMetricsCard = ({ data, generatedAt }) => {
     return (
         <GenericMetricsCard

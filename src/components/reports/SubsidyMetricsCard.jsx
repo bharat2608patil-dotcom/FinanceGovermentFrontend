@@ -1,5 +1,5 @@
 import React from 'react';
-import GenericMetricsCard from '../common/GenericMetricsCard';
+import GenericMetricsCard from '../reports/GenericMetricsCard';
 
 const SubsidyMetricsCard = ({ data, generatedAt }) => {
     return (

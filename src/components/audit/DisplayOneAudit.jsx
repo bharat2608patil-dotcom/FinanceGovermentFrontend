@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './DisplayOneAudit.css';
-import { StatusBadge, DetailCard, RefetchButton } from '../../../core/registry';
+import { StatusBadge, DetailCard, RefetchButton } from '../../core/registry';
 
 const DisplayOneAudit = ({ audit, onRefresh }) => {
   const navigate = useNavigate();

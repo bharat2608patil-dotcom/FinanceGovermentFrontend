@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import * as complianceApi from "../../../axios/complianceApi";
+import * as complianceApi from "../../api/complianceApi";
 
 const ComplianceSummary = () => {
   const [summary, setSummary] = useState({});

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // Ensure this path correctly points to your API service file
-import * as auditApi from "../../../axios/auditApi"; 
-import { Loader } from "../../../core/registry";
+import * as auditApi from "../../api/auditApi"; 
+import { Loader } from "../../core/registry";
 
 const AuditSummary = () => {
   const [summary, setSummary] = useState({});
