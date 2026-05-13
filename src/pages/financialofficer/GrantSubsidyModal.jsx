@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { Send, ArrowLeft, ShieldCheck } from 'lucide-react';
 import axios from 'axios';
-import './GrantSubsidyPage.css';
+import '../financialofficer/GrantSubsidyModal.css'; // Styles specific to the grant subsidy form
 
 const GrantSubsidyPage = () => {
   const location = useLocation();

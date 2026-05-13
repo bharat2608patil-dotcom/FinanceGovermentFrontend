@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { RefreshCw, Search, History } from 'lucide-react';
 import Footer from '../../layout/Footer';
-import './OfficerAllApplications.css';
+import '../financialofficer/OfficerAllApplications.css'; // Styles specific to the application history view
 
 const OfficerAllApplications = () => {
   const [applications, setApplications] = useState([]);
