@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { createCitizen, getCitizenByUserId, updateCitizen } from './api';
+import { createCitizen, getCitizenByUserId, updateCitizen } from '../../api/CitizenAreef';
 
 const initialForm = {
   name: '',

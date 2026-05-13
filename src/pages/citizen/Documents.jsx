@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { uploadDoc, updateDoc, fetchAllDocuments } from './Citizen';
+import { uploadDoc, updateDoc, fetchAllDocuments } from '../../api/CitizenAreef';
 import './CitizenModule.css';
 
 const initialUploadForm = {

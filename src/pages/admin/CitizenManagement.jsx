@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './CitizenManagement.css';
 import './Common.css'
-import { fetchAllCitizens, approveCitizen, fetchAllDocuments } from './api';
+import { fetchAllCitizens, approveCitizen, fetchAllDocuments } from '../../api/Admin';
 
 export const CitizenManagement = () => {
   const [citizens, setCitizens] = useState([]);
