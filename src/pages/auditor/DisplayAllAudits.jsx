@@ -8,7 +8,7 @@ import {
   StatusBadge,
   RecordsTable,
 } from "../../core/registry";
-import * as auditApi from "../../../axios/auditApi";
+import * as auditApi from "../../api/auditApi";
 
 const DisplayAllAudits = () => {
   const navigate = useNavigate();

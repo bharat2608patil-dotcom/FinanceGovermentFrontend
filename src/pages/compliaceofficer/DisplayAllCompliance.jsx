@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import './DisplayAllCompliance.css';
 import { SearchBar, StatusBadge, RecordsTable, EmptyState, Loader, RefetchButton } from '../../core/registry';
-import * as complianceApi from "../../../axios/complianceApi";
+import * as complianceApi from "../../api/complianceApi";
 
 const DisplayAllCompliance = () => {
   const [filterText, setFilterText] = useState('');

@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 import { CharacterAllow } from "../../core/registry";
 // Import your service helper
-import * as auditApi from "../../../axios/auditApi";
+import * as auditApi from "../../api/auditApi";
 
 const AuditCreate = () => {
   const [form, setForm] = useState({

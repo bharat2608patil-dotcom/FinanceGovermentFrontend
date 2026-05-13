@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { EmptyState, Loader } from '../../core/registry';
-import * as complianceApi from "../../../axios/complianceApi";
+import * as complianceApi from "../../api/complianceApi";
 
 const ComplianceEdit = () => {
   const { id } = useParams();

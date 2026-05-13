@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import * as complianceApi from "../../../axios/complianceApi";
+import * as complianceApi from "../../api/complianceApi";
 import { Loader, RefetchButton, ComplianceSummary } from '../../core/registry';
 
 const ComplianceDashboard = () => {
