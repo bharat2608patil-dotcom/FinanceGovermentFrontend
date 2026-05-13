@@ -8,6 +8,7 @@ import './OfficerApplications.css';
 const CitizenSearchPage = () => {
   const [searchId, setSearchId] = useState('');
   const [citizenData, setCitizenData] = useState(null);
+
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
