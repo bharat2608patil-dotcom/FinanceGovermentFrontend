@@ -1,6 +1,6 @@
 import axiosInstance from './axiosInstance';
 
-const BUDGET_API = '/budget';
+const BUDGET_API = 'api/budget';
 
 const budgetService = {
   /**

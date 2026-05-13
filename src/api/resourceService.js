@@ -1,6 +1,6 @@
 import axiosInstance from './axiosInstance';
 
-const RESOURCE_API = '/resources';
+const RESOURCE_API = 'api/resources';
 
 const resourceService = {
   /**
