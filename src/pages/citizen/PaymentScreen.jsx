@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { apiClient } from '@api/aravind';
-import { getEntityId, getMissingIdsMessage } from '@utils/storage';
-import { statusBadgeClass, taxStatusLabels } from '@utils/status';
-import LoadingSpinner from '@components/common/LoadingSpinner';
+import { getEntityId, getMissingIdsMessage } from '@api/storage';
+import { statusBadgeClass, taxStatusLabels } from '@api/status';
+import LoadingSpinner from '@components/global/LoadingSpinner';
 
 const PaymentScreen = () => {
   const [taxRecords, setTaxRecords] = useState([]);

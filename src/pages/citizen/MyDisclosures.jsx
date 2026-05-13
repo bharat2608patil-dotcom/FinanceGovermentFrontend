@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { apiClient } from '@api/aravind';
-import { getEntityId, getMissingIdsMessage } from '@utils/storage';
-import { statusBadgeClass, disclosureStatusLabels } from '@utils/status';
+import { getEntityId, getMissingIdsMessage } from '@api/storage';
+import { statusBadgeClass, disclosureStatusLabels } from '@api/status';
 
 const MyDisclosures = () => {
   const [disclosures, setDisclosures] = useState([]);

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { apiClient } from '@api/aravind';
-import { getEntityId, getMissingIdsMessage } from '@utils/storage';
-import { statusBadgeClass, taxStatusLabels } from '@utils/status';
+import { getEntityId, getMissingIdsMessage } from '@api/storage';
+import { statusBadgeClass, taxStatusLabels } from '@api/status';
 
 const MyTaxations = () => {
   const [taxations, setTaxations] = useState([]);
