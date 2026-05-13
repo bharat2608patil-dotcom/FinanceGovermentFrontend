@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { apiClient } from '@api/aravind';
-import { statusBadgeClass, disclosureStatusLabels } from '@utils/status';
-import LoadingSpinner from '@components/common/LoadingSpinner';
+import { statusBadgeClass, disclosureStatusLabels } from '@api/status';
+import LoadingSpinner from '@components/global/LoadingSpinner';
 
 const VerifyDisclosure = () => {
   const [disclosures, setDisclosures] = useState([]);

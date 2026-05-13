@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { apiClient } from '@api/aravind';
-import { statusBadgeClass, taxStatusLabels } from '@utils/status';
-import LoadingSpinner from '@components/common/LoadingSpinner';
+import { statusBadgeClass, taxStatusLabels } from '@api/status';
+import LoadingSpinner from '@components/global/LoadingSpinner';
 
 const VerifyTaxation = () => {
   const [taxRecords, setTaxRecords] = useState([]);

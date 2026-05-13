@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { apiClient } from '@api/aravind';
-import { getEntityId, getUserId, getMissingIdsMessage } from '@utils/storage';
-import LoadingSpinner from '@components/common/LoadingSpinner';
+import { getEntityId, getUserId, getMissingIdsMessage } from '@api/storage';
+import LoadingSpinner from '@components/global/LoadingSpinner';
 
 const CreateDisclosure = () => {
   const [type, setType] = useState('INCOME');
