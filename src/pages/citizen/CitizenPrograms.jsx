@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { RefreshCw, AlertCircle, CheckCircle, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import axios from 'axios';
-import Footer from '../../../components/layout/Footer'; 
+import Footer from '../../layout/Footer'; 
 import './CitizenPrograms.css';
 
 const DescriptionCell = ({ text }) => {

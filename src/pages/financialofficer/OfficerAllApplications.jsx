@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { RefreshCw, Search, History } from 'lucide-react';
-import Footer from '../../../components/layout/Footer'; // Adjust path if necessary
+import Footer from '../../layout/Footer';
 import './OfficerAllApplications.css';
 
 const OfficerAllApplications = () => {

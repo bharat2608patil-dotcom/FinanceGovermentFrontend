@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Search, User, Mail, Phone, MapPin, Loader2, FileText, Briefcase, Info } from 'lucide-react';
-import Footer from '../../../components/layout/Footer';
+import Footer from '../../layout/Footer';
 import './OfficerApplications.css'; 
 
 const CitizenSearchPage = () => {
