@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Search, CheckCircle, XCircle, DollarSign, Loader2 } from 'lucide-react';
 import Footer from '../../layout/Footer';
-import './OfficerApplications.css';
+import './OfficerAllApplications';
 
 const OfficerApplications = () => {
   const navigate = useNavigate();
