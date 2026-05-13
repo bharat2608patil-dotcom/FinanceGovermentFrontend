@@ -4,7 +4,7 @@ import { RefreshCw, AlertCircle, CheckCircle, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import axios from 'axios';
 import Footer from '../../layout/Footer'; 
-import './CitizenPrograms.css';
+import '../financialofficer/OfficerAllApplications.css'; // Reusing styles for consistency
 
 const DescriptionCell = ({ text }) => {
   const [isExpanded, setIsExpanded] = useState(false);
