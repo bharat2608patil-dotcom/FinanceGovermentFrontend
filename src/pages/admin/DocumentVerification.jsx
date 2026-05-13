@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './DocumentVerification.css';
 import './Common.css'
 
-import { fetchAllDocuments, verifyDocument, rejectDocument, getDocumentPreview } from './Admin';
+import { fetchAllDocuments, verifyDocument, rejectDocument, getDocumentPreview } from '../../api/Admin';
 
 export const DocumentVerification = () => {
   const [documents, setDocuments] = useState([]);

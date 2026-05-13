@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getCitizenById, getCitizenByUserId, updateCitizen } from './Citizen';
+import { getCitizenById, getCitizenByUserId, updateCitizen } from '../../api/CitizenAreef';
 import './CitizenModule.css';
 
 export const Profile = () => {
