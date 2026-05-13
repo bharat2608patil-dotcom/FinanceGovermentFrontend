@@ -4,8 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { Send, ArrowLeft, ShieldCheck, CheckCircle, AlertCircle, Info, XCircle } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import axios from 'axios';
-import '../financialofficer/GrantSubsidyModal.css'; // Styles specific to the grant subsidy form
-
+import './GrantSubsidyPage.css'; // Styles specific to the grant subsidy form
 const GrantSubsidyPage = () => {
   const location = useLocation();
   const navigate = useNavigate();

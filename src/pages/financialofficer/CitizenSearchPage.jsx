@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Search, User, Mail, Phone, MapPin, Loader2, FileText, Briefcase, Info } from 'lucide-react';
 import Footer from '../../layout/Footer';
-import '../financialofficer/OfficerAllApplications.css'; // Reusing styles for consistency
+import './OfficerAllApplications'; // Reusing styles for consistency
 
 const CitizenSearchPage = () => {
   const [searchId, setSearchId] = useState('');

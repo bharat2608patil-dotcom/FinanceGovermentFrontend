@@ -3,8 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { RefreshCw, AlertCircle, CheckCircle, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import axios from 'axios';
-import Footer from '../../layout/Footer'; 
-import '../financialofficer/OfficerAllApplications.css'; // Reusing styles for consistency
+import './CitizenPrograms'; // Reusing styles for consistency
 
 const DescriptionCell = ({ text }) => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -164,7 +163,6 @@ const CitizenPrograms = ({ defaultView = 'available' }) => {
             )}
           </div>
         </div>
-        <Footer />
       </div>
     </div>
   );

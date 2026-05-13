@@ -3,8 +3,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Search, CheckCircle, XCircle, DollarSign, Loader2 } from 'lucide-react';
-import Footer from '../../layout/Footer';
-import '../financialofficer/OfficerAllApplications.css'; // Styles specific to the application history view
+import './OfficerAllApplications.css'; // Styles specific to the application history view
 
 const OfficerApplications = () => {
   const navigate = useNavigate();
@@ -141,7 +140,6 @@ const OfficerApplications = () => {
             </tbody>
           </table>
         </div>
-        <Footer />
       </div>
     </div>
   );
